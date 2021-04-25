@@ -1,0 +1,13 @@
+{
+  "name": "xoho-functions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "netlify-lambda": "^2.0.4"
+  },
+  "scripts": {
+    "build": "netlify-lambda build functions/",
+    "serve": "netlify-lambda serve functions/"
+  }
+}
