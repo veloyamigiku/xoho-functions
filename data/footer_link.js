@@ -24,5 +24,27 @@ export const data = {
       label: 'vit®利用規約',
       url: './vit/legal_notice.html'
     }
+  ],
+  snsLink: [
+    {
+      icon: ['fab', 'youtube'],
+      url: 'https://www.youtube.com/user/TOHOCINEMASmagazine'
+    },
+    {
+      icon: ['fab', 'line'],
+      url: 'https://line.me/R/ti/p/%40tohocinemas'
+    },
+    {
+      icon: ['fab', 'twitter'],
+      url: 'https://twitter.com/tohocinemas_m'
+    },
+    {
+      icon: ['fab', 'facebook-square'],
+      url: 'https://www.facebook.com/tohocinemasmagagine/'
+    },
+    {
+      icon: ['fab', 'instagram'],
+      url: 'https://www.instagram.com/tohocinemas_official/'
+    }
   ]
 }
