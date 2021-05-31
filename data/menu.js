@@ -59,7 +59,7 @@ export const menu = (params) => {
         [
           {
             label: '上映中作品情報',
-            url: params.url + ':' + params.port + '/movie/',
+            url: params.url + ':' + params.port + '/movie/now_playing',
             icon: ['fas', 'expand-arrows-alt']
           },
           {
