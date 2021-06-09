@@ -4,7 +4,8 @@ import { ResponseHeader } from '../data/response_header';
 
 export const handler = async (event, context) => {
   const common = getCommon(event);
-  const data = topMenu(common);
+  const activePage = event.queryStringParameters['active_page']
+  const data = topMenu(common, activePage);
   return {
     statusCode: 200,
     headers: ResponseHeader,
