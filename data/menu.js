@@ -64,7 +64,7 @@ export const menu = (params) => {
           },
           {
             label: '公開予定作品情報',
-            url: params.url + ':' + params.port + '/movie/type=new',
+            url: params.url + ':' + params.port + '/movie/coming_soon',
             icon: ['fas', 'compress-arrows-alt']
           }
         ]
