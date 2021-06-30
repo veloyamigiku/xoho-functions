@@ -96,8 +96,36 @@ const getTheaterByArea = (theater, common) => {
 }
 
 const getTheaterByType = (theater, typeList, common) => {
-  var res = [];
-  return res;
+  var theaterByTypeList = [];
+  typeList.forEach(function (typ) {
+    var theaterByType = {
+      type: type[typ]
+    };
+    var prefectureMap = {};
+    theater.forEach(function (t) {
+      if (t.type.includes(typ)) {
+        const formattedTheater = formatTheater(t);
+        formattedTheater['url'] = common.url + ':' + common.port + formattedTheater['url'];
+        if (t.prefecture in prefectureMap) {
+          prefectureMap[t.prefecture]["theater"].push(formattedTheater);
+        } else {
+          prefectureMap[t.prefecture] = {};
+          prefectureMap[t.prefecture]["theater"] = [formattedTheater];
+        }
+      }
+    });
+    var prefectureList = [];
+    for (const pref of Object.keys(prefectureMap)) {
+      prefectureList.push({
+        name: prefecture[pref].name,
+        sub: prefecture[pref].sub,
+        theather: prefectureMap[pref]["theater"]
+      });
+    }
+    theaterByType["prefecture"] = prefectureList;
+    theaterByTypeList.push(theaterByType);
+  });
+  return theaterByTypeList;
 }
 
 export const handler = async (event, context) => {
