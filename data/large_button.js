@@ -1,9 +1,14 @@
 export const largeButton = (params, pageType) => {
 
-  const nowPlaying = {
+  const nowPlaying1 = {
     title: '上映中作品一覧',
     url: params.url + ':' + params.port + '/movie/now_playing'
   };
+
+  const nowPlaying2 = {
+    title: '上映中の作品一覧から',
+    url: params.url + ':' + params.port + '/movie/now_playing'
+  }
   
   const comingSoon = {
     title: '公開予定作品一覧',
@@ -23,11 +28,11 @@ export const largeButton = (params, pageType) => {
       ];
     case 'coming_soon':
       return [
-        nowPlaying
+        nowPlaying1
       ];
     case 'theater':
       return [
-        nowPlaying
+        nowPlaying2
       ];
     default:
       return [
