@@ -146,22 +146,40 @@ export const prefecture = {
 
 export const type = {
   1: {
-    name: 'IMAX'
+    name: 'IMAX',
+    title: 'IMAX劇場一覧',
+    sub: '最高級のプレミアムシアター',
+    option: 'IMAX®とは？'
   },
   2: {
-    name: 'MX4D'
+    name: 'MX4D',
+    title: 'MX4D劇場一覧',
+    sub: 'アトラクション型4Dシアター',
+    option: 'MX4D®とは？'
   },
   3: {
-    name: 'TCX'
+    name: 'TCX',
+    title: 'TCX劇場一覧',
+    sub: '独自規格の巨大スクリーン',
+    option: 'TCX®とは？'
   },
   4: {
-    name: 'ATMOS'
+    name: 'ATMOS',
+    title: 'DOLBY ATMOS劇場一覧',
+    sub: '立体音響システム',
+    option: 'DOLBY ATMOSとは？'
   },
   5: {
-    name: 'SCREEN X'
+    name: 'SCREEN X',
+    title: '',
+    sub: '',
+    option: ''
   },
   6: {
-    name: 'IMAXレーザー'
+    name: 'IMAXレーザー',
+    title: 'IMAXレーザー劇場一覧',
+    sub: '最高級のプレミアムシアター',
+    option: 'IMAX®レーザーとは？'
   }
 };
 

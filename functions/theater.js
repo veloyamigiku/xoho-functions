@@ -73,7 +73,11 @@ const getTheaterByArea = (theater, common) => {
   var theaterByAreaList = [];
   for (const tmpArea of Object.keys(theaterByAreaObj).sort()) {
     var theaterByArea = {
-      'area': area[tmpArea],
+      header: {
+        title: area[tmpArea].name,
+        sub: area[tmpArea].sub,
+        option: ''
+      },
       'prefecture': []
     };
     for (const tmpPrefecture of Object.keys(theaterByAreaObj[tmpArea]).sort()) {
@@ -99,7 +103,11 @@ const getTheaterByType = (theater, typeList, common) => {
   var theaterByTypeList = [];
   typeList.forEach(function (typ) {
     var theaterByType = {
-      type: type[typ]
+      header: {
+        title: type[typ].title,
+        sub: type[typ].sub,
+        option: type[typ].option
+      }
     };
     var prefectureMap = {};
     theater.forEach(function (t) {
