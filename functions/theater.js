@@ -119,7 +119,7 @@ const getTheaterByType = (theater, typeList, common) => {
       prefectureList.push({
         name: prefecture[pref].name,
         sub: prefecture[pref].sub,
-        theather: prefectureMap[pref]["theater"]
+        theater: prefectureMap[pref]["theater"]
       });
     }
     theaterByType["prefecture"] = prefectureList;
