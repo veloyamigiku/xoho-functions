@@ -149,37 +149,43 @@ export const type = {
     name: 'IMAX',
     title: 'IMAX劇場一覧',
     sub: '最高級のプレミアムシアター',
-    option: 'IMAX®とは？'
+    option: 'IMAX®とは？',
+    icon: ['fas', 'adjust']
   },
   2: {
     name: 'MX4D',
     title: 'MX4D劇場一覧',
     sub: 'アトラクション型4Dシアター',
-    option: 'MX4D®とは？'
+    option: 'MX4D®とは？',
+    icon: ['fas', 'air-freshener']
   },
   3: {
     name: 'TCX',
     title: 'TCX劇場一覧',
     sub: '独自規格の巨大スクリーン',
-    option: 'TCX®とは？'
+    option: 'TCX®とは？',
+    icon: ['fas', 'allergies']
   },
   4: {
     name: 'ATMOS',
     title: 'DOLBY ATMOS劇場一覧',
     sub: '立体音響システム',
-    option: 'DOLBY ATMOSとは？'
+    option: 'DOLBY ATMOSとは？',
+    icon: ['fas', 'ambulance']
   },
   5: {
     name: 'SCREEN X',
     title: '',
     sub: '',
-    option: ''
+    option: '',
+    icon: null
   },
   6: {
     name: 'IMAXレーザー',
     title: 'IMAXレーザー劇場一覧',
     sub: '最高級のプレミアムシアター',
-    option: 'IMAX®レーザーとは？'
+    option: 'IMAX®レーザーとは？',
+    icon: ['fas', 'american-sign-language-interpreting']
   }
 };
 
