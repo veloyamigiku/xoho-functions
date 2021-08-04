@@ -25,6 +25,7 @@ export const handler = async (event, context) => {
     }
   });
 
+  const REPLACE_AREA_NAME = '地区';
   var theatersByAreaPrefecture = [];
   var preAreaId = null;
   var prePrefectureId = null;
@@ -37,10 +38,12 @@ export const handler = async (event, context) => {
       if (tmpTheatersByAreaPrefecture) {
         theatersByAreaPrefecture.push(tmpTheatersByAreaPrefecture);
       }
+      const tmpArea = area[areaId];
+      tmpArea.name = tmpArea.name.replace(REPLACE_AREA_NAME, '');
       tmpTheatersByAreaPrefecture = {
-        area: area[areaId],
+        area: tmpArea,
         prefectures: []
-      }
+      };
       prefectureTheaters = [];
     } else if (prePrefectureId !== prefectureId) {
       tmpTheatersByAreaPrefecture.prefectures.push({
@@ -67,11 +70,13 @@ export const handler = async (event, context) => {
   sortedAreaIds.sort();
   sortedAreaIds.forEach(function (areaId, areaIdIdx) {
     if (theatersByAreaPrefecture[areaIdIdx].area.name != area[areaId].name) {
+      const tmpArea = area[areaId];
+      tmpArea.name = tmpArea.name.replace(REPLACE_AREA_NAME, '');
       theatersByAreaPrefecture.splice(
         areaIdIdx,
         0,
         {
-          area: area[areaId],
+          area: tmpArea,
           prefectures: []
         });
     }

@@ -16,7 +16,7 @@ export const area = {
     sub: 'KANSAI AREA'
   },
   5: {
-    name: '中国地方',
+    name: '中国地区',
     sub: 'CHUGOKU AREA'
   },
   6: {
