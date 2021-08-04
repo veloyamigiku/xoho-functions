@@ -56,9 +56,6 @@ export const movieInfo = {
   ],
   runningTimeMinute: 121,
   theaterId: [
-    1,
-    3,
-    2,
     30,
     31,
     29,
@@ -109,7 +106,6 @@ export const movieInfo = {
     52,
     51,
     53,
-    54,
     55,
     57,
     56,

@@ -63,6 +63,20 @@ export const handler = async (event, context) => {
     theatersByAreaPrefecture.push(tmpTheatersByAreaPrefecture);
   }
 
+  var sortedAreaIds = Object.keys(area);
+  sortedAreaIds.sort();
+  sortedAreaIds.forEach(function (areaId, areaIdIdx) {
+    if (theatersByAreaPrefecture[areaIdIdx].area.name != area[areaId].name) {
+      theatersByAreaPrefecture.splice(
+        areaIdIdx,
+        0,
+        {
+          area: area[areaId],
+          prefectures: []
+        });
+    }
+  });
+
   const movieInfoCopy = { ...movieInfo };
   movieInfoCopy.theater = theatersByAreaPrefecture;
   delete movieInfoCopy.theaterId;
