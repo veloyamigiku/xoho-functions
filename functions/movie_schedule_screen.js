@@ -1,4 +1,4 @@
-import { movieScreen } from "../data/movie_schedule_screen"
+import { movieScreenPtn1, movieScreenPtn2 } from "../data/movie_schedule_screen"
 import { ResponseHeader } from "../data/response_header"
 import { getDayOfWeekStr } from "../utils/date";
 
@@ -16,7 +16,7 @@ export const handler = async (event, context) => {
     day: day,
     d: getDayOfWeekStr(year, month, day),
     title: title,
-    screen: movieScreen
+    screen: day % 2 == 1 ? movieScreenPtn1 : movieScreenPtn2
   }
 
   return {
