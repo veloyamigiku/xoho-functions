@@ -596,7 +596,7 @@ export const theater = [
     area: 4,
     prefecture: 18,
     url: '',
-    type: [2]
+    type: [2, 6]
   },
   {
     name: '伊丹',
