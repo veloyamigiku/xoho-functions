@@ -9,7 +9,8 @@ const formatTheater = (theater) => {
     name: theater.name,
     sub: theater.sub,
     url: theater.url,
-    type: fromTypeToName(theater.type)
+    type: fromTypeToName(theater.type),
+    introImgUrl: theater.introImgUrl
   }
   return res;
 }
