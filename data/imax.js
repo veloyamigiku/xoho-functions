@@ -1,8 +1,7 @@
 export const imax = {
     logo: 'https://lh3.googleusercontent.com/pw/AM-JKLUXSlm0jwJv4k5UJ_VUyISOs48dlyqcficjcj6V7Q8-kolMOsvMF8W0lpOUbyBKU7hAFrpMzbCZsqgmNz4zxKqSToRCfdxqLCENsXf109eB0R_2lncUWSAx66ppoAUPri0fV3OsKj5s3GjgbMNxLvwj=w131-h49-no?authuser=0',
     titleImgUrl: 'https://lh3.googleusercontent.com/pw/AM-JKLV6lLsgbGxoQxEjs3wiJm2YuyunYFhWAdjuAKjTiADhYSnLmt3XetyvxRJuJZm6MI-sE86A_bPNeBdzYfscgXmVfqimb4YKZ8aUynzjkKF9GZ9SUvGBqZ9xfAFch3-zH6lgk6dsVonZHR76j-pw26vB=w1368-h492-no?authuser=0',
-    // lasertIntroImgUrl: 'https://lh3.googleusercontent.com/pw/AM-JKLWF6sxXRe_dW5yayVt3OKS10006Sj-popwula0jcz76oBXro2ulAK6ufXTsSK_LQzc_6FLJfoJmvkquyKkBbT7ifMTnnqw7AwsvUpHIhuZrKhvscuHcEJJCRh86X-hjRuDTirSNpGDgWO2P9LG5RqCt=w471-h74-no?authuser=0',
-    lasertIntroImgUrl: 'https://www.dynacity.jp/sites/default/files/styles/shop_detail_logo/public/assets/logo/tohochinemas.png?itok=es3S8Gr9',
+    lasertIntroImgUrl: 'https://lh3.googleusercontent.com/pw/AM-JKLWF6sxXRe_dW5yayVt3OKS10006Sj-popwula0jcz76oBXro2ulAK6ufXTsSK_LQzc_6FLJfoJmvkquyKkBbT7ifMTnnqw7AwsvUpHIhuZrKhvscuHcEJJCRh86X-hjRuDTirSNpGDgWO2P9LG5RqCt=w471-h74-no?authuser=0',
     introImgUrl: 'https://lh3.googleusercontent.com/pw/AM-JKLVE80snJkkoPxE0R47sLmsYSC8C_gRD4UnO83B5Sl7FVUauPtk06kAC7tgLFHMQ7QYnpgbmnoP4fMEX7kauwVpUBD6Hw_ap_mJfQ57qAr7EVpo5pOXYBig_EIPZ370ZgFLHTWmzH4EzMehcwhZg63Jt=w680-h74-no?authuser=0',
     nowShowingImgUrl: 'https://lh3.googleusercontent.com/pw/AM-JKLW4duluqSkG2oppDn0z8xbEfbLJbuYHdvizUnpQQLka7FkszVy7ahY_Nn3rw73pUJTUbkiyY6uB7QyiDFnUfOXxM0CMyze2RdNw3L5tj5hz8ARJDpnHRV0nQpgJhNiB6S5GKZiqDl2ybv1L4LbbqqGK=w365-h72-no?authuser=0',
     laser: {
