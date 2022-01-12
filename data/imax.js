@@ -9,6 +9,7 @@ export const imax = {
         titleBgImgUrl: 'https://lh3.googleusercontent.com/pw/AM-JKLU3MJf5WAZot0UnCYHr7RRbUEUroz_i7g9yWxcIP0LrVXOudZxbaXiPq6rKBIB4uRmbq3mLuc7r98gGAotghABxGkmjCThffhIjkQCE2rpUCs-Z_2SaOgKbjKRE9joTIKcyEFRihgn4uh5uU90x93f2=s2-no?authuser=0',
         imgUrl: 'https://lh3.googleusercontent.com/pw/AM-JKLVwlX-Ba8cIjQutxD-q3TYUkG9J7PDjiOuF0V1Isd7qfrUN72Bo4WMk_qk8tofaJCorV5QaCe0S7LQrUT2nBValhVobJAHeQSm302JkLK81JJQPRpcrne19RZ2J1-ddAOmrywfLiq7r4ztrWT9wLjdQ=w3360-h870-no?authuser=0',
         textImgUrl: 'https://lh3.googleusercontent.com/pw/AM-JKLUSjDoZVL81RasYWT609xSXnriC7E90d5AspDtAmzgirKxDybs8wRwdydEuS9-t2a41eDoPDzjRbylLmaK_5LebXunDqzxv2KpysiMljyS486p460ZSJsyCLMZKv85NnkUaGFrIF1-yJH2WpJ8ye-r_=w944-h363-no?authuser=0',
+        textBgImgUrl: 'https://lh3.googleusercontent.com/pw/AM-JKLWUY-6gobvz5Ify-dJ8EdsnbxY24qevYEgqQV_VK0--O7bsjgc4D9ORl6mCdQmlfHL3mLBkdhU8sCZ9GepB_uoXYaZjMY20Qc3pz70vNrN-g8Eb2EVuNoLxcZ9qzcEU3wwBhvBMWHSn2VYvV7ib5Ris=s2-no?authuser=0',
         info: [
             {
                 type: 'text',
@@ -42,6 +43,7 @@ export const imax = {
         titleBgImgUrl: 'https://lh3.googleusercontent.com/pw/AM-JKLU3MJf5WAZot0UnCYHr7RRbUEUroz_i7g9yWxcIP0LrVXOudZxbaXiPq6rKBIB4uRmbq3mLuc7r98gGAotghABxGkmjCThffhIjkQCE2rpUCs-Z_2SaOgKbjKRE9joTIKcyEFRihgn4uh5uU90x93f2=s2-no?authuser=0',
         imgUrl: null,
         textImgUrl: 'https://lh3.googleusercontent.com/pw/AM-JKLW2j-OFYJe5X3d3Kf0P8iScYxYYyTxQQCfsMSe5fLhozHJtJ8HptLVEBtVuQvBQpEnLBu-Ydivhv6ummv6Go40DVMvQC0wJBEUhfn6F8nVOjvi8aToZYnf-GZ1sZHGqGkUY36lvRpWteeHtA8gJ8__Z=w944-h357-no?authuser=0',
+        textBgImgUrl: 'https://lh3.googleusercontent.com/pw/AM-JKLWUY-6gobvz5Ify-dJ8EdsnbxY24qevYEgqQV_VK0--O7bsjgc4D9ORl6mCdQmlfHL3mLBkdhU8sCZ9GepB_uoXYaZjMY20Qc3pz70vNrN-g8Eb2EVuNoLxcZ9qzcEU3wwBhvBMWHSn2VYvV7ib5Ris=s2-no?authuser=0',
         info: [
             {
                 type: 'image',
