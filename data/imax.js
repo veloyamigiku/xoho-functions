@@ -6,6 +6,7 @@ export const imax = {
     nowShowingImgUrl: 'https://lh3.googleusercontent.com/pw/AM-JKLW4duluqSkG2oppDn0z8xbEfbLJbuYHdvizUnpQQLka7FkszVy7ahY_Nn3rw73pUJTUbkiyY6uB7QyiDFnUfOXxM0CMyze2RdNw3L5tj5hz8ARJDpnHRV0nQpgJhNiB6S5GKZiqDl2ybv1L4LbbqqGK=w365-h72-no?authuser=0',
     laser: {
         titleImgUrl: 'https://lh3.googleusercontent.com/pw/AM-JKLXl6XXxf2Uqy-o7A7DSYAa_l_NhUhrx_hQg6Y65X_7b50fiqj1OlJ1sAMgxWN_A1YlzxlhETqG1dmvS3l_nojsm5xiEgsSaUI_lu4JNfm4T82cbVbFptD6s2Cyy5xQVxUxTCmFIGgHsVs_t5SwSwEyY=w655-h78-no?authuser=0',
+        titleBgImgUrl: 'https://lh3.googleusercontent.com/pw/AM-JKLU3MJf5WAZot0UnCYHr7RRbUEUroz_i7g9yWxcIP0LrVXOudZxbaXiPq6rKBIB4uRmbq3mLuc7r98gGAotghABxGkmjCThffhIjkQCE2rpUCs-Z_2SaOgKbjKRE9joTIKcyEFRihgn4uh5uU90x93f2=s2-no?authuser=0',
         imgUrl: 'https://lh3.googleusercontent.com/pw/AM-JKLVwlX-Ba8cIjQutxD-q3TYUkG9J7PDjiOuF0V1Isd7qfrUN72Bo4WMk_qk8tofaJCorV5QaCe0S7LQrUT2nBValhVobJAHeQSm302JkLK81JJQPRpcrne19RZ2J1-ddAOmrywfLiq7r4ztrWT9wLjdQ=w3360-h870-no?authuser=0',
         textImgUrl: 'https://lh3.googleusercontent.com/pw/AM-JKLUSjDoZVL81RasYWT609xSXnriC7E90d5AspDtAmzgirKxDybs8wRwdydEuS9-t2a41eDoPDzjRbylLmaK_5LebXunDqzxv2KpysiMljyS486p460ZSJsyCLMZKv85NnkUaGFrIF1-yJH2WpJ8ye-r_=w944-h363-no?authuser=0',
         info: [
@@ -38,6 +39,7 @@ export const imax = {
     },
     imax: {
         titleImgUrl: 'https://lh3.googleusercontent.com/pw/AM-JKLXFT9rMF5NIKolVa8N2B0aXtJ0Gw2JyZG1czLX4gTSTSBwiVab26S8H8LV5QLRu69GEubatORla6xJxE79PAwkbMAAwhsz6D8jjbCPgVbxVoZh7Cn_UC9wHBZMq10aAP545jpfL5XpYg6H-43rSGOfy=w845-h78-no?authuser=0',
+        titleBgImgUrl: 'https://lh3.googleusercontent.com/pw/AM-JKLU3MJf5WAZot0UnCYHr7RRbUEUroz_i7g9yWxcIP0LrVXOudZxbaXiPq6rKBIB4uRmbq3mLuc7r98gGAotghABxGkmjCThffhIjkQCE2rpUCs-Z_2SaOgKbjKRE9joTIKcyEFRihgn4uh5uU90x93f2=s2-no?authuser=0',
         imgUrl: null,
         textImgUrl: 'https://lh3.googleusercontent.com/pw/AM-JKLW2j-OFYJe5X3d3Kf0P8iScYxYYyTxQQCfsMSe5fLhozHJtJ8HptLVEBtVuQvBQpEnLBu-Ydivhv6ummv6Go40DVMvQC0wJBEUhfn6F8nVOjvi8aToZYnf-GZ1sZHGqGkUY36lvRpWteeHtA8gJ8__Z=w944-h357-no?authuser=0',
         info: [
