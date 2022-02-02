@@ -4,6 +4,7 @@ export const imax = {
     lasertIntroImgUrl: 'https://lh3.googleusercontent.com/pw/AM-JKLWF6sxXRe_dW5yayVt3OKS10006Sj-popwula0jcz76oBXro2ulAK6ufXTsSK_LQzc_6FLJfoJmvkquyKkBbT7ifMTnnqw7AwsvUpHIhuZrKhvscuHcEJJCRh86X-hjRuDTirSNpGDgWO2P9LG5RqCt=w471-h74-no?authuser=0',
     introImgUrl: 'https://lh3.googleusercontent.com/pw/AM-JKLVE80snJkkoPxE0R47sLmsYSC8C_gRD4UnO83B5Sl7FVUauPtk06kAC7tgLFHMQ7QYnpgbmnoP4fMEX7kauwVpUBD6Hw_ap_mJfQ57qAr7EVpo5pOXYBig_EIPZ370ZgFLHTWmzH4EzMehcwhZg63Jt=w680-h74-no?authuser=0',
     nowShowingImgUrl: 'https://lh3.googleusercontent.com/pw/AM-JKLW4duluqSkG2oppDn0z8xbEfbLJbuYHdvizUnpQQLka7FkszVy7ahY_Nn3rw73pUJTUbkiyY6uB7QyiDFnUfOXxM0CMyze2RdNw3L5tj5hz8ARJDpnHRV0nQpgJhNiB6S5GKZiqDl2ybv1L4LbbqqGK=w365-h72-no?authuser=0',
+    nowShowingBgImgUrl: 'https://lh3.googleusercontent.com/pw/AM-JKLV6jAidS_cVWqghNfmGWQsmiGmu2i_SmuV-w61nWiEOXi8LAlyaviNNsmZBsiVZqhON99z7vof1JkX77v5xURXvq3DcY7cEsJWIahLuIOkpSS5nnvxUOopi_DiNQXYa0kWWvf6KLcLZ68moY_2AaMwn=s10-no?authuser=0',
     laser: {
         titleImgUrl: 'https://lh3.googleusercontent.com/pw/AM-JKLXl6XXxf2Uqy-o7A7DSYAa_l_NhUhrx_hQg6Y65X_7b50fiqj1OlJ1sAMgxWN_A1YlzxlhETqG1dmvS3l_nojsm5xiEgsSaUI_lu4JNfm4T82cbVbFptD6s2Cyy5xQVxUxTCmFIGgHsVs_t5SwSwEyY=w655-h78-no?authuser=0',
         titleBgImgUrl: 'https://lh3.googleusercontent.com/pw/AM-JKLU3MJf5WAZot0UnCYHr7RRbUEUroz_i7g9yWxcIP0LrVXOudZxbaXiPq6rKBIB4uRmbq3mLuc7r98gGAotghABxGkmjCThffhIjkQCE2rpUCs-Z_2SaOgKbjKRE9joTIKcyEFRihgn4uh5uU90x93f2=s2-no?authuser=0',
